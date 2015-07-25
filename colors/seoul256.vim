@@ -127,7 +127,7 @@ call s:hi('LineNr', [101, 101], [s:dark_bg + 1, s:light_bg - 2])
 call s:hi('Visual', ['', ''], [23, 152])
 call s:hi('VisualNOS', ['', ''], [23, 152])
 
-call s:hi('Comment', [65, 65], ['', ''])
+call s:hi('Comment', [8, 8], ['', ''])
 call s:hi('Number', [222, 95], ['', ''])
 call s:hi('Float', [222, 95], ['', ''])
 call s:hi('Boolean', [103, 168], ['', ''])
@@ -183,18 +183,18 @@ call s:hi('Underlined', [181, 168], ['', ''])
 
 " set textwidth=80
 " set colorcolumn=+1
-call s:hi('ColorColumn', ['', ''], [s:dark_bg - 1, s:light_bg - 2])
+call s:hi('ColorColumn', ['', ''], [s:dark_bg + 1, s:light_bg + 2])
 
 " GVIM only
 " hi Cursor ctermfg=
 " hi CursorIM ctermfg=
 
 " set cursorline cursorcolumn
-call s:hi('CursorLine', ['', ''], [s:dark_bg - 1, s:light_bg - 1])
-call s:hi('CursorLineNr', [131, 131], [s:dark_bg - 1, s:light_bg - 1])
-call s:hi('CursorColumn', ['', ''], [s:dark_bg - 1, s:light_bg - 1])
+call s:hi('CursorLine', ['', ''], [s:dark_bg + 1, s:light_bg + 1])
+call s:hi('CursorLineNr', [131, 131], [s:dark_bg + 1, s:light_bg + 1])
+call s:hi('CursorColumn', ['', ''], [s:dark_bg + 1, s:light_bg + 1])
 
-call s:hi('Directory', [187, 95], ['', ''])
+call s:hi('Directory', [222, 95], ['', ''])
 
 call s:hi('DiffAdd',    ['NONE', 'NONE'], [22, 151])
 call s:hi('DiffDelete', ['NONE', 'NONE'], [95, 181])
