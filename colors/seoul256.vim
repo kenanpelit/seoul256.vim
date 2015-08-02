@@ -194,7 +194,7 @@ call s:hi('CursorLine', ['', ''], [s:dark_bg + 1, s:light_bg + 1])
 call s:hi('CursorLineNr', [131, 131], [s:dark_bg + 1, s:light_bg + 1])
 call s:hi('CursorColumn', ['', ''], [s:dark_bg + 1, s:light_bg + 1])
 
-call s:hi('Directory', [222, 95], ['', ''])
+call s:hi('Directory', [7, 95], ['', ''])
 
 call s:hi('DiffAdd',    ['NONE', 'NONE'], [22, 151])
 call s:hi('DiffDelete', ['NONE', 'NONE'], [95, 181])
