@@ -146,7 +146,7 @@ call s:hi('Conditional', [110, 31], ['', ''])
 " while end
 call s:hi('Repeat', [68, 67], ['', ''])
 call s:hi('Todo', [161, 125], [s:dark_bg_2, s:light_bg_2])
-call s:hi('Function', [187, 58], ['', ''])
+call s:hi('Function', [251, 58], ['', ''])
 
 " Macros
 call s:hi('Define', [173, 131], ['', ''])
@@ -199,7 +199,7 @@ call s:hi('Directory', [7, 95], ['', ''])
 call s:hi('DiffAdd',    ['NONE', 'NONE'], [22, 151])
 call s:hi('DiffDelete', ['NONE', 'NONE'], [95, 181])
 call s:hi('DiffChange', ['NONE', 'NONE'], [s:dark_bg + 3, 189])
-call s:hi('DiffText',   ['NONE', 'NONE'], [52, 224])
+call s:hi('DiffText',   ['NONE', 'NONE'], [52, 251])
 
 call s:hi('VertSplit', [s:dark_bg_2, s:light_bg - 3], [s:dark_bg_2, s:light_bg - 3])
 call s:hi('Folded', [101, 101], [s:dark_bg + 1, s:light_bg - 2])
@@ -218,8 +218,8 @@ call s:hi('NonText', [101, 101], ['', ''])
 call s:hi('MoreMsg', [173, 173], ['', ''])
 
 " Popup menu
-call s:hi('Pmenu', [s:dark_bg + 1, 238], [224, 224])
-call s:hi('PmenuSel', [s:dark_fg, s:dark_fg], [89, 89])
+call s:hi('Pmenu', [s:dark_bg + 1, 238], [251, 251])
+call s:hi('PmenuSel', [s:dark_fg, s:dark_fg], [236, 236])
 call s:hi('PmenuSbar', ['', ''], [65, 65])
 call s:hi('PmenuThumb', ['', ''], [23, 23])
 
@@ -264,12 +264,12 @@ else
 endif
 
 "
-call s:hi('StatusLine', [95, 95], [187, 187])
-call s:hi('StatusLineNC', [s:dark_bg + 2, s:light_bg - 2], [187, 238])
+call s:hi('StatusLine', [240, 240], [251, 251])
+call s:hi('StatusLineNC', [s:dark_bg + 2, s:light_bg - 2], [251, 238])
 call s:hi('TabLineFill', [s:dark_bg + 2, s:light_bg - 2], ['', ''])
-call s:hi('TabLineSel', [187, 187], [23, 66])
+call s:hi('TabLineSel', [251, 251], [23, 66])
 call s:hi('TabLine', [s:dark_bg + 12, s:light_bg - 12], [s:dark_bg + 4, s:light_bg - 4])
-call s:hi('WildMenu', [95, 95], [184, 184])
+call s:hi('WildMenu', [95, 95], [14, 14])
 
 " :set all
 call s:hi('Title', [181, 88], ['', ''])
